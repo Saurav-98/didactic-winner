@@ -47,3 +47,34 @@ console.log(hasDriversLicence && hasGoodVision);
 console.log(!hasDriversLicence && hasGoodVision);
 console.log(hasDriversLicence || hasGoodVision);
 console.log(!hasDriversLicence || hasGoodVision);
+
+const day = 'wedndesday';
+
+switch (day) {
+  case 'monday':
+    console.log('Plan course structure');
+    console.log('Go to Coding Meetup');
+    break;
+
+  case 'tuesday':
+    console.log('Prepare Theory Videos');
+    break;
+
+  case 'wednesday':
+  case 'thursday':
+    console.log('Write code examples');
+    break;
+
+  case 'friday':
+    console.log('Record Videos');
+    break;
+
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy the Weekend!');
+    break;
+
+  default:
+    console.log('Not the day of week');
+    break;
+}

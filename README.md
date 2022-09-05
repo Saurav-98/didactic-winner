@@ -39,3 +39,9 @@ g - BigInt(ES2020) - Larger integers than the Number type can hold.
 12 - === is strict equality (Copares thedatatype and Values as well) and == is a lose equality it doea a type coercion and compares he value.
 
 13 - Boolean Logic
+
+14 - IF else , Switch statements
+15 - Statements and expressions
+16 - Ternary Operators
+
+17 - Javascript Versions
