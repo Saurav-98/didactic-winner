@@ -21,3 +21,5 @@ g - BigInt(ES2020) - Larger integers than the Number type can hold.
 4 - Comments in JS
 
 5 - let Vs const vs var
+
+6- Basic Operators.

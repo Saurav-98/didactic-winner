@@ -1,55 +1,82 @@
-let js = 'amazing';
+// let js = 'amazing';
 
-// if (js === 'amazing') alert('Javascript is Fun!');
+// // if (js === 'amazing') alert('Javascript is Fun!');
 
-console.log(40 + 8 + 65 + 15 - 91);
+// console.log(40 + 8 + 65 + 15 - 91);
 
-console.log('Saurav');
+// console.log('Saurav');
 
-let firstName = 'Saurav';
-console.log(firstName);
+// let firstName = 'Saurav';
+// console.log(firstName);
 
-let myFirstJob = 'Programmer';
-let myCurrentJob = 'Teacher';
+// let myFirstJob = 'Programmer';
+// let myCurrentJob = 'Teacher';
 
-console.log(myFirstJob);
-console.log(myCurrentJob);
+// console.log(myFirstJob);
+// console.log(myCurrentJob);
 
-let country = 'India';
-let continent = 'Asia';
-let population = 1393.4;
+// let country = 'India';
+// let continent = 'Asia';
+// let population = 1393.4;
 
-console.log(country);
-console.log(continent);
-console.log(population);
+// console.log(country);
+// console.log(continent);
+// console.log(population);
 
-console.log(typeof country);
-console.log(typeof continent);
-console.log(typeof population);
+// console.log(typeof country);
+// console.log(typeof continent);
+// console.log(typeof population);
 
-// let for the variables that might change
+// // let for the variables that might change
 
-let age = 23;
-age = 24;
-console.log(age);
+// let age = 23;
+// age = 24;
+// console.log(age);
 
-let birthyear;
-birthyear = 1998;
-console.log(birthyear);
+// let birthyear;
+// birthyear = 1998;
+// console.log(birthyear);
 
-// const where the values will never change
-// we can not initialize variable without value using const
+// // const where the values will never change
+// // we can not initialize variable without value using const
 
-const PI = 3.14151;
-console.log(PI);
+// const PI = 3.14151;
+// console.log(PI);
 
-// const YEAR;
-// YEAR = 2022;
-// Not Possible
+// // const YEAR;
+// // YEAR = 2022;
+// // Not Possible
 
-// Var is function Scoped
+// // Var is function Scoped
 
-// Let and Const are block scoped
+// // Let and Const are block scoped
 
-var teacher = 'Science';
-teacher = 'Maths';
+// var teacher = 'Science';
+// teacher = 'Maths';
+
+const now = 2022;
+const ageSaurav = now - 1998;
+const ageSarah = now - 1989;
+
+console.log(ageSaurav, ageSarah);
+
+console.log(ageSaurav * 2, ageSarah / 10, 2 ** 3);
+
+const firstName = 'Nick';
+const lastName = 'Jonas';
+
+console.log(firstName + ' ' + lastName);
+
+let x = 10 + 5 - 6;
+console.log(x);
+x += 12;
+console.log(x);
+x++;
+console.log(x);
+x--;
+console.log(x);
+
+console.log(ageSaurav > ageSarah);
+
+const averageAge = (ageSarah + ageSaurav) / 2;
+console.log(averageAge);
