@@ -22,4 +22,8 @@ g - BigInt(ES2020) - Larger integers than the Number type can hold.
 
 5 - let Vs const vs var
 
-6- Basic Operators.
+6 - Basic Operators.
+7 - Operator Precedence.
+
+<!-- Completed Assignment - 1 -->
+<!-- Completed Challenge - 1 -->
