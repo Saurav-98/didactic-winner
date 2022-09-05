@@ -1,82 +1,49 @@
-// let js = 'amazing';
+// const age = 17;
+// const isOldEnogh = age >= 18;
 
-// // if (js === 'amazing') alert('Javascript is Fun!');
+// if (isOldEnogh) {
+//   console.log('You are eligible to Vote.');
+// } else {
+//   const yearsleft = 18 - age;
+//   console.log(`You are Young, Wait another ${yearsleft} years.`);
+// }
 
-// console.log(40 + 8 + 65 + 15 - 91);
+// const birthYear = 2008;
+// let century;
+// if (birthYear < 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
 
-// console.log('Saurav');
+// console.log(century);
 
-// let firstName = 'Saurav';
-// console.log(firstName);
+// const inputYear = '1992';
+// console.log(Number(inputYear) + 18);
+// console.log(typeof 123);
 
-// let myFirstJob = 'Programmer';
-// let myCurrentJob = 'Teacher';
+// console.log('I am ' + 24 + ' years old.');
 
-// console.log(myFirstJob);
-// console.log(myCurrentJob);
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean(''));
+// console.log(Boolean('Saurav'));
+// console.log(Boolean({}));
+// console.log(Boolean(1));
+// console.log(Boolean([]));
 
-// let country = 'India';
-// let continent = 'Asia';
-// let population = 1393.4;
+// const favorite = prompt('What is your favorite number?');
+// console.log(favorite);
+// console.log(typeof favorite);
 
-// console.log(country);
-// console.log(continent);
-// console.log(population);
+// if (favorite === 23) {
+//   console.log('23 is an Amazing Number');
+// }
 
-// console.log(typeof country);
-// console.log(typeof continent);
-// console.log(typeof population);
+const hasDriversLicence = true;
+const hasGoodVision = true;
 
-// // let for the variables that might change
-
-// let age = 23;
-// age = 24;
-// console.log(age);
-
-// let birthyear;
-// birthyear = 1998;
-// console.log(birthyear);
-
-// // const where the values will never change
-// // we can not initialize variable without value using const
-
-// const PI = 3.14151;
-// console.log(PI);
-
-// // const YEAR;
-// // YEAR = 2022;
-// // Not Possible
-
-// // Var is function Scoped
-
-// // Let and Const are block scoped
-
-// var teacher = 'Science';
-// teacher = 'Maths';
-
-const now = 2022;
-const ageSaurav = now - 1998;
-const ageSarah = now - 1989;
-
-console.log(ageSaurav, ageSarah);
-
-console.log(ageSaurav * 2, ageSarah / 10, 2 ** 3);
-
-const firstName = 'Nick';
-const lastName = 'Jonas';
-
-console.log(firstName + ' ' + lastName);
-
-let x = 10 + 5 - 6;
-console.log(x);
-x += 12;
-console.log(x);
-x++;
-console.log(x);
-x--;
-console.log(x);
-
-console.log(ageSaurav > ageSarah);
-
-const averageAge = (ageSarah + ageSaurav) / 2;
-console.log(averageAge);
+console.log(hasDriversLicence && hasGoodVision);
+console.log(!hasDriversLicence && hasGoodVision);
+console.log(hasDriversLicence || hasGoodVision);
+console.log(!hasDriversLicence || hasGoodVision);

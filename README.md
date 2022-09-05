@@ -27,3 +27,15 @@ g - BigInt(ES2020) - Larger integers than the Number type can hold.
 
 <!-- Completed Assignment - 1 -->
 <!-- Completed Challenge - 1 -->
+
+8 - String Literals and Template literals - (multi line Strings)
+
+9 - Condiional statements
+
+10 - Type Conversion and Type Coercion
+
+11 - Truthy and Falsy Values
+
+12 - === is strict equality (Copares thedatatype and Values as well) and == is a lose equality it doea a type coercion and compares he value.
+
+13 - Boolean Logic
