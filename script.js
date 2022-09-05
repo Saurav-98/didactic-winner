@@ -47,7 +47,9 @@ console.log(PI);
 // YEAR = 2022;
 // Not Possible
 
-//
+// Var is function Scoped
+
+// Let and Const are block scoped
 
 var teacher = 'Science';
 teacher = 'Maths';
